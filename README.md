@@ -46,3 +46,5 @@ pythonコマンドの後にスクリプトファイルを指定することで�
 ```
  git clone https://github.com/ShouheiYano2020/python_calc.git
 ```
+
+python_calcというディレクトリが作成されその中に、矢野先生のリモートリポジトリと同じ内容がコピーされているはずです。
