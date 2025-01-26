@@ -44,7 +44,25 @@ pythonコマンドの後にスクリプトファイルを指定することで�
 矢野先生のgithubレポジトリを自分のPCにコピーするためには、クローンを使います。
 
 ```
- git clone https://github.com/ShouheiYano2020/python_calc.git
+ $ git clone https://github.com/ShouheiYano2020/python_calc.git
 ```
 
 python_calcというディレクトリが作成されその中に、矢野先生のリモートリポジトリと同じ内容がコピーされているはずです。
+
+コピーしたディレクトリに移動します。
+
+```
+ $ cd python_calc
+```
+
+dir または　ls　などのコマンドを使ってディレクトリー内にファイルがコピーされていることを確認してみてください。
+
+# ブランチの作成
+
+もらってきた矢野先生のリモートブランチを編集したいと思いますが、
+そのまえにブランチを作成し、ブランチで編集を行いましょう
+
+```
+ $ git branch test_branch
+```
+
