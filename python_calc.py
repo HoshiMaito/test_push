@@ -11,7 +11,7 @@ def update_display(display_value):
  
 def number_click(event):    
     global var
-    if event in ["0","1","2","3","4","5","6","7","8","9"]:
+    if event in ["0","1","2","3","4","5","6","7","8","9"]:  
         if var["decimal"] == True:
             var["front"].append(event)
         else:
