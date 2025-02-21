@@ -1,3 +1,4 @@
+#三角関数追加
 import PySimpleGUI as sg
 import math
 
